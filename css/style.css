@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.footer{
+    display: flex;
+}
+ .head-title{
+     display: flex;
+     color: white;
+     background-color: #1F2937;
+     margin: 0px;
+     padding: 3px;
+     justify-content: space-between;
+ }
+ .head-top{
+     display: flex;
+     margin: auto;
+     justify-content: space-between;
+     color: white;
+     background-color: #1F2937;
+     
+ }
+ .text
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    padding: 2px;
+    margin-bottom: 5px;
+ }
+ button{
+     color: white;
+     background-color:#3882F6;
+     border-color: #3882F6;
+     width: auto;
+     height: 30px;
+
+ }
+ .logo{
+    border-radius: 50%; 
+    width: auto;
+    height: 50px;
+    width: 50px;
+     
+ }
+ ul{
+     display: flex;
+     gap: 16px;
+     list-style-type: none;
+     flex-direction: row-reverse;
+
+
+ }
+ .footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 40px;
+align-items: center;    
+    
+ }
+ .content
+ {
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     margin: 15px;
+     gap: 14px;
+ }
+ .cardtext
+ {
+    width: 100px;
+    text-align: center;
+ }
+ .quote
+ {
+     background-color: #E5E7EB;
+     margin: 12px;
+     padding: 10px;
+ }
+ .action
+ {
+     
+     display: flex;     
+     align-items: center;
+     background-color: #3882F6;
+     flex-direction: column;
+     margin: 40px;
+     color: white;
+    padding:15px;
+ }
+.actiontext
+{
+    display: flex;
+    
+}
+.actionbtn{
+    margin: 10px;
+    
+
+}
+.btnaction{
+    display: flex;
+    border-color: white;
+    align-items:  center;
+}
